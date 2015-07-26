@@ -1,7 +1,7 @@
 # logical-conversion
 Truth table implementation of given numbers
 
-## Useage
+## Usage
 
 ```javascript
 
