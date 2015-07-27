@@ -8,11 +8,14 @@ Truth table implementation of given numbers
 //include the logical-conversion
 var lc = require("./index");
 
-// AND operation -- Performs truth table AND operation on given decimal numbers.
+// AND operation -- Performs truth table Conjunction operation on given decimal numbers.
 lc.AND(2, 3); // output -- 2
 
-// OR operation -- Performs truth table OR operation on given decimal numbers.
+// OR operation -- Performs truth table Disjunction operation on given decimal numbers.
 lc.OR(2, 3); // output -- 3
+
+// NOT operation -- Performs truth table Negation operation on given decimal number.
+lc.NOT(8); // output -- 111
 
 // Conversion -- Converts the given decimal number into perferred radix form.
 lc.Conversion(3, 2); // output -- 11  
