@@ -1,0 +1,28 @@
+{
+  "name": "logical-conversion",
+  "version": "1.0.0",
+  "description": "Truth table implementation and numeric conversions of given numbers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalaKrishna-BALU/logical-conversion.git"
+  },
+  "keywords": [
+    "Truthtable",
+    "table",
+    "truth",
+    "conversion"
+  ],
+  "author": "Bala Krishna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BalaKrishna-BALU/logical-conversion/issues"
+  },
+  "homepage": "https://github.com/BalaKrishna-BALU/logical-conversion#readme"
+}
