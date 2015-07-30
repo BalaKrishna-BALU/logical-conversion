@@ -11,11 +11,11 @@ module.exports = {
 		for(var i=0;i<temp1.length;i++){
       		temp2+=parseInt(temp1[i])==1?0:1;
 		}
-		return parseInt(temp2);
+		return parseInt(temp2,2);
 	},
 	XOR:function(a,b){
-		var c = (a >>> 0).toString(2);
-		var d = (b >>> 0).toString(2);
+		var c = (a).toString(2);
+		var d = (b).toString(2);
         var i=0,result='',temp='',minlen=0;
         if(c.length>d.length){
             minlen = d.length;
@@ -41,7 +41,7 @@ module.exports = {
                 result=(c[c.length-i]^d[d.length-i]).toString()+result;
             }
         }
-        return temp+result;
+        return parseInt((temp+result),2);
 	},
 	Conversion : function(number, toRadix) {
 		return (number >>> 0).toString(toRadix);

@@ -1,5 +1,5 @@
 # logical-conversion
-Truth table implementation of given numbers
+Truth table implementation of given .
 
 ## Usage
 
@@ -9,16 +9,19 @@ Truth table implementation of given numbers
 var lc = require("./index");
 
 // AND operation -- Performs truth table Conjunction operation on given decimal numbers.
-lc.AND(2, 3); // output -- 2
+lc.AND(2, 3); // output -- 2 in decimal format.
 
 // OR operation -- Performs truth table Disjunction operation on given decimal numbers.
-lc.OR(2, 3); // output -- 3
+lc.OR(2, 3); // output -- 3 in decimal format.
 
 // NOT operation -- Performs truth table Negation operation on given decimal number.
-lc.NOT(8); // output -- 111
+lc.NOT(8); // output -- 7 in decimal format. 
+
+// XOR -- Performs truth table Xor operation on given decimal numbers.
+lc.XOR(7,16); // output -- 23 in decimal format. 
 
 // Conversion -- Converts the given decimal number into perferred radix form.
-lc.Conversion(3, 2); // output -- 11  
+lc.Conversion(15, 2); // output -- 1111  in binary format.
 
 ```
 ## Test
