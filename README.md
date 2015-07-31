@@ -1,6 +1,12 @@
 # logical-conversion
 Truth table implementation of given decimal number's.
 
+## Installation
+
+```bash
+$ npm install total-captcha
+```
+
 ## Usage
 
 ```javascript
