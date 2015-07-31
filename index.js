@@ -17,28 +17,26 @@ module.exports = {
 		var c = (a).toString(2);
 		var d = (b).toString(2);
         var i=0,result='',temp='',minlen=0;
+        
         if(c.length>d.length){
             minlen = d.length;
-            for(i=1;i<=minlen;i++){
-                result=(c[c.length-i]^d[d.length-i]).toString()+result;
-            }
-            c=c.split('');
-            for(var j=0;j<c.length-minlen;j++){
-                temp=temp+c[j];
-            }
+            performXOR(c.split(''));
         }else if(c.length<d.length){
             minlen = c.length;
-            for(i=1;i<=minlen;i++){
-                result=(c[c.length-i]^d[d.length-i]).toString()+result;
-            }
-            d=d.split('');
-            for(var j=0;j<d.length-minlen;j++){
-                temp=temp+d[j];
-            }
+            performXOR(d.split(''));
         }else{
             minlen = c.length;
-            for(i=1;i<=minlen;i++){
+            performXOR();
+        }
+
+        function performXOR(splitnumber){
+             for(i=1;i<=minlen;i++){
                 result=(c[c.length-i]^d[d.length-i]).toString()+result;
+            }
+            if(splitnumber){
+                for(i=0;i<splitnumber.length-minlen;i++){
+                    temp=temp+splitnumber[i];
+                }
             }
         }
         return parseInt((temp+result),2);
