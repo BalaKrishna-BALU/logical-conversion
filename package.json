@@ -11,10 +11,10 @@
     "url": "git+https://github.com/BalaKrishna-BALU/logical-conversion.git"
   },
   "keywords": [
-    "Truthtable",
+    "truthtable",
     "table",
-    "truth",
-    "conversion"
+    "conversion",
+    "logical"
   ],
   "author": "Bala Krishna",
   "license": "MIT",
