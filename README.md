@@ -1,5 +1,5 @@
 # logical-conversion
-Truth table implementation of given .
+Truth table implementation of given decimal number's.
 
 ## Usage
 
