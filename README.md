@@ -4,7 +4,7 @@ Truth table implementation of given decimal number's.
 ## Installation
 
 ```bash
-$ npm install total-captcha
+$ npm install logical-conversion
 ```
 
 ## Usage
