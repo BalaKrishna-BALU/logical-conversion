@@ -1,6 +1,6 @@
 {
   "name": "logical-conversion",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Truth table implementation and numeric conversions of given numbers",
   "main": "index.js",
   "directories": {
