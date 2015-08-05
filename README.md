@@ -12,7 +12,7 @@ $ npm install logical-conversion
 ```javascript
 
 //include the logical-conversion
-var lc = require("./index");
+var lc = require("logical-conversion");
 
 // AND operation -- Performs truth table Conjunction operation on given decimal numbers.
 lc.AND(2, 3); // output -- 2 in decimal format.
