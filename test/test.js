@@ -1,4 +1,4 @@
-var lc = require("../index");
+var lc = require("logical-conversion");
 
 console.log("AND",lc.AND(2, 3));
 console.log("OR",lc.OR(2, 3));
