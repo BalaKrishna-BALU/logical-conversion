@@ -27,7 +27,7 @@ lc.NOT(8); // output -- 7 in decimal format.
 lc.XOR(7, 16); // output -- 23 in decimal format. 
 
 // XNOR -- Performs truth table logical equality operation on given decimal numbers.
-lc.XOR(8, 8); // output -- 15 in decimal format. 
+lc.XNOR(8, 8); // output -- 15 in decimal format. 
 
 // Conversion -- Converts the given decimal number into perferred radix form.
 lc.Conversion(15, 2); // output -- 1111  in binary format.
