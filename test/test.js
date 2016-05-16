@@ -18,5 +18,5 @@ console.log("AND",lc.AND(5, 9));
 console.log("OR",lc.OR(9, 5));
 console.log("NOT",lc.NOT(16));
 console.log("XOR",lc.XOR(7,16));
-console.log("XNOR",lc.XNOR(7,16));
+console.log("XNOR",lc.XNOR(14,1));
 console.log("Conversion",lc.Conversion(7, 2));

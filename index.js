@@ -52,7 +52,6 @@ module.exports = {
 		}else{
 			return this.NOT(temp);
 		}
-		
 	},
 	Conversion : function(number, toRadix) {
 		return (number >>> 0).toString(toRadix);

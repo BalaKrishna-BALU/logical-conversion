@@ -36,7 +36,7 @@ lc.Conversion(15, 2); // output -- 1111  in binary format.
 ## Test
 
 ```bash
-$ git clone https://github.com/BalaKrishna-BALU/total-captcha.git
+$ git clone https://github.com/BalaKrishna-BALU/logical-conversion.git
 $ cd logical-conversion
 $ cd test
 $ node test.js
