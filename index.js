@@ -50,35 +50,37 @@
 	}
 
 	function XNOR(a, b) {
-		var temp = this.XOR(a, b);
+		var temp = XOR(a, b);
 		if (a === b) {
 			var result = '';
 			for (var i = 1; i < ((a).toString(2)).length; i++) {
 				result += 1;
 			}
-			return parseInt((this.NOT(temp) + '' + result), 2);
+			return parseInt((NOT(temp) + '' + result), 2);
 		} else {
-			return this.NOT(temp);
+			return NOT(temp);
 		}
 	}
 
 	function Conversion(number, toRadix) {
 		return (number >>> 0).toString(toRadix);
 	}
+	var lc;
 	if (typeof exports !== "undefined" && typeof module !== "undefined" && module.exports) {
-		exports = module.exports = {};
-		exports.lcAND = AND;
-		exports.lcOR = OR;
-		exports.lcNOT = NOT;
-		exports.lcXOR = XOR;
-		exports.lcXNOR = XNOR;
-		exports.lcConversion = Conversion;
+		exports = module.exports = lc = {};
+		exports.AND = AND;
+		exports.OR = OR;
+		exports.NOT = NOT;
+		exports.XOR = XOR;
+		exports.XNOR = XNOR;
+		exports.Conversion = Conversion;
 	} else {
-		this.lcAND = AND;
-		this.lcOR = OR;
-		this.lcNOT = NOT;
-		this.lcXOR = XOR;
-		this.lcXNOR = XNOR;
-		this.lcConversion = Conversion;
+		this.lc = {};
+		this.lc.AND = AND;
+		this.lc.OR = OR;
+		this.lc.NOT = NOT;
+		this.lc.XOR = XOR;
+		this.lc.XNOR = XNOR;
+		this.lc.Conversion = Conversion;
 	}
 }).call(this);
